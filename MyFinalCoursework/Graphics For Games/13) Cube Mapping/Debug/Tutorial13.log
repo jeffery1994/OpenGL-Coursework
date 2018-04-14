@@ -1,0 +1,13 @@
+﻿  Renderer.cpp
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(28): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(94): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(98): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(100): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(101): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(102): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(102): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(116): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(604): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\graphics\myfinalcoursework\graphics for games\13) cube mapping\renderer.cpp(860): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  Tutorial13.vcxproj -> F:\Graphics\MyFinalCoursework\Graphics For Games\Debug\Coursework.exe
+  Tutorial13.vcxproj -> F:\Graphics\MyFinalCoursework\Graphics For Games\Debug\Coursework.pdb (Partial PDB)

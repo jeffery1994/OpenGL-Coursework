@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main Graphics Tutorials", "Main Graphics Tutorials", "{26FF1E94-61DD-4E24-A071-50FA11CAC038}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nclgl", "..\nclgl\nclgl.vcxproj", "{98D6B51B-CB0A-4389-ADC6-24082B967C3F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial 13 - Cube Mapping", "13) Cube Mapping\Tutorial13.vcxproj", "{2E797EF1-6CA2-4611-BC4F-A3146AEBB468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shader", "Shader", "{49B5D217-D8F7-47A8-BB78-BE3EAB2B3E53}"
+	ProjectSection(SolutionItems) = preProject
+		..\Shaders\basicVertex.glsl = ..\Shaders\basicVertex.glsl
+		..\Shaders\blurFragment.glsl = ..\Shaders\blurFragment.glsl
+		..\Shaders\bufferFragment.glsl = ..\Shaders\bufferFragment.glsl
+		..\Shaders\BumpFragment.glsl = ..\Shaders\BumpFragment.glsl
+		..\Shaders\BumpVertex.glsl = ..\Shaders\BumpVertex.glsl
+		..\Shaders\BumpVertex1.glsl = ..\Shaders\BumpVertex1.glsl
+		..\Shaders\colourFragment.glsl = ..\Shaders\colourFragment.glsl
+		..\Shaders\combinefrag.glsl = ..\Shaders\combinefrag.glsl
+		..\Shaders\combinevert.glsl = ..\Shaders\combinevert.glsl
+		..\Shaders\debugFragment.glsl = ..\Shaders\debugFragment.glsl
+		..\Shaders\debugVertex.glsl = ..\Shaders\debugVertex.glsl
+		..\Shaders\directionalLightFragment.glsl = ..\Shaders\directionalLightFragment.glsl
+		..\Shaders\edgeFragment.glsl = ..\Shaders\edgeFragment.glsl
+		..\Shaders\FinalWaterFragment.glsl = ..\Shaders\FinalWaterFragment.glsl
+		..\Shaders\FinalWaterVertex.glsl = ..\Shaders\FinalWaterVertex.glsl
+		..\Shaders\grayFragment.glsl = ..\Shaders\grayFragment.glsl
+		..\Shaders\kernelFragment.glsl = ..\Shaders\kernelFragment.glsl
+		..\Shaders\laserFragment.glsl = ..\Shaders\laserFragment.glsl
+		..\Shaders\normalLightFragment.glsl = ..\Shaders\normalLightFragment.glsl
+		..\Shaders\normalLightVertex.glsl = ..\Shaders\normalLightVertex.glsl
+		..\Shaders\particleFragment.glsl = ..\Shaders\particleFragment.glsl
+		..\Shaders\particleVertex.glsl = ..\Shaders\particleVertex.glsl
+		..\Shaders\PerPixelVertex.glsl = ..\Shaders\PerPixelVertex.glsl
+		..\Shaders\pointlightfrag.glsl = ..\Shaders\pointlightfrag.glsl
+		..\Shaders\pointlightvert.glsl = ..\Shaders\pointlightvert.glsl
+		..\Shaders\processfrag.glsl = ..\Shaders\processfrag.glsl
+		..\Shaders\reflectFragment.glsl = ..\Shaders\reflectFragment.glsl
+		..\Shaders\reverseColourFragment.glsl = ..\Shaders\reverseColourFragment.glsl
+		..\Shaders\SceneFragment.glsl = ..\Shaders\SceneFragment.glsl
+		..\Shaders\SceneVertex.glsl = ..\Shaders\SceneVertex.glsl
+		..\Shaders\shadowFrag.glsl = ..\Shaders\shadowFrag.glsl
+		..\Shaders\shadowscenefrag.glsl = ..\Shaders\shadowscenefrag.glsl
+		..\Shaders\shadowscenevert.glsl = ..\Shaders\shadowscenevert.glsl
+		..\Shaders\shadowVert.glsl = ..\Shaders\shadowVert.glsl
+		..\Shaders\skyboxFragment.glsl = ..\Shaders\skyboxFragment.glsl
+		..\Shaders\skyboxVertex.glsl = ..\Shaders\skyboxVertex.glsl
+		..\Shaders\spotLightFragment.glsl = ..\Shaders\spotLightFragment.glsl
+		..\Shaders\StencilFragment.glsl = ..\Shaders\StencilFragment.glsl
+		..\Shaders\terribleFragment.glsl = ..\Shaders\terribleFragment.glsl
+		..\Shaders\terribleVertex.glsl = ..\Shaders\terribleVertex.glsl
+		..\Shaders\TexturedFragment.glsl = ..\Shaders\TexturedFragment.glsl
+		..\Shaders\TexturedVertex.glsl = ..\Shaders\TexturedVertex.glsl
+		..\Shaders\waterReflectionFragment.glsl = ..\Shaders\waterReflectionFragment.glsl
+		..\Shaders\waterReflectionShader.glsl = ..\Shaders\waterReflectionShader.glsl
+		..\Shaders\waterRefractionFragment.glsl = ..\Shaders\waterRefractionFragment.glsl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|Win32.Build.0 = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|Win32.ActiveCfg = Release|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|Win32.Build.0 = Release|Win32
+		{2E797EF1-6CA2-4611-BC4F-A3146AEBB468}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E797EF1-6CA2-4611-BC4F-A3146AEBB468}.Debug|Win32.Build.0 = Debug|Win32
+		{2E797EF1-6CA2-4611-BC4F-A3146AEBB468}.Release|Win32.ActiveCfg = Release|Win32
+		{2E797EF1-6CA2-4611-BC4F-A3146AEBB468}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E797EF1-6CA2-4611-BC4F-A3146AEBB468} = {26FF1E94-61DD-4E24-A071-50FA11CAC038}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29913C7C-615D-44D8-8F46-78CFEB10B531}
+	EndGlobalSection
+EndGlobal
